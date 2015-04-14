@@ -11,6 +11,9 @@ import SpriteKit
 class GameScene: SKScene {
     
     var movingGround: NNMovingGround!
+    var hero: NNHero!
+    
+    var isStarted = false
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
@@ -20,12 +23,34 @@ class GameScene: SKScene {
         movingGround = NNMovingGround(size: CGSizeMake(view.frame.width, kMLGroundHeight))
         movingGround.position = CGPointMake(0, view.frame.size.height / 2)
         self.addChild(movingGround)
+        
+        /* add hero */
+        hero = NNHero()
+        hero.position = CGPointMake(70, movingGround.position.y + movingGround.frame.size.height / 2 + hero.frame.size.height / 2)
+        self.addChild(hero)
+        hero.breath()
 
+    }
+    
+    func start() {
+        isStarted = true
+        
+        /* find the ndoe by named "tapToStartLabel" and then remove it from parent node */
+        let tapToStartLabel = childNodeWithName("tapToStartLabel")
+        tapToStartLabel?.removeFromParent()
+        
+        hero.stop()
+        hero.startRuning()
+        movingGround.start()
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         /* Called when a touch begins */
-        
+        if !isStarted {
+            start()
+        } else {
+            hero.flip()
+        }
     }
    
     override func update(currentTime: CFTimeInterval) {
