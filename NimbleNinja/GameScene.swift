@@ -12,6 +12,8 @@ class GameScene: SKScene {
     
     var movingGround: NNMovingGround!
     var hero: NNHero!
+    var cloudGenerator: NNCloudGenerator!
+    var wallGenerator: NNWallGenerator!
     
     var isStarted = false
     
@@ -30,6 +32,18 @@ class GameScene: SKScene {
         self.addChild(hero)
         hero.breath()
 
+        /* add cloud generator */
+        cloudGenerator = NNCloudGenerator(color: UIColor.clearColor(), size: view.frame.size)
+        cloudGenerator.position = view.center
+        cloudGenerator.zPosition = -10
+        addChild(cloudGenerator)
+        cloudGenerator.populate(7)
+        cloudGenerator.startGeneratingWithSpawnTime(5)
+        
+        /* add wall generator */
+        wallGenerator = NNWallGenerator(color: UIColor.clearColor(), size: view.frame.size)
+        wallGenerator.position = view.center
+        addChild(wallGenerator)
     }
     
     func start() {
@@ -42,6 +56,8 @@ class GameScene: SKScene {
         hero.stop()
         hero.startRuning()
         movingGround.start()
+        
+        wallGenerator.startGeneratingWallsEvery(1)
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
