@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NimbleNinja
 //
-//  Created by  夏锦春 on 15/4/14.
+//  Created by Jinchun Xia on 15/4/14.
 //  Copyright (c) 2015 TEAM. All rights reserved.
 //
 

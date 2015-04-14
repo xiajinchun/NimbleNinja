@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2600D8F41ADCF00300DBDB2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F31ADCF00300DBDB2F /* README.md */; };
+		2600D8F61ADCF8E900DBDB2F /* NNMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */; };
+		2600D8F81ADCF8FB00DBDB2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F71ADCF8FB00DBDB2F /* Constants.swift */; };
 		26A7A3B81ADCD03800C248C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */; };
 		26A7A3BA1ADCD03800C248C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26A7A3B91ADCD03800C248C2 /* GameScene.sks */; };
 		26A7A3BC1ADCD03800C248C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3BB1ADCD03800C248C2 /* GameScene.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		2600D8F31ADCF00300DBDB2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNMovingGround.swift; sourceTree = "<group>"; };
+		2600D8F71ADCF8FB00DBDB2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		26A7A3B21ADCD03800C248C2 /* Nimble Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A7A3B61ADCD03800C248C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +91,9 @@
 				26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */,
 				26A7A3B91ADCD03800C248C2 /* GameScene.sks */,
 				26A7A3BB1ADCD03800C248C2 /* GameScene.swift */,
+				2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */,
 				26A7A3BD1ADCD03800C248C2 /* GameViewController.swift */,
+				2600D8F71ADCF8FB00DBDB2F /* Constants.swift */,
 				26A7A3BF1ADCD03800C248C2 /* Main.storyboard */,
 				26A7A3C21ADCD03800C248C2 /* Images.xcassets */,
 				26A7A3C41ADCD03800C248C2 /* LaunchScreen.xib */,
@@ -223,9 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A7A3BC1ADCD03800C248C2 /* GameScene.swift in Sources */,
+				2600D8F61ADCF8E900DBDB2F /* NNMovingGround.swift in Sources */,
 				26A7A3BE1ADCD03800C248C2 /* GameViewController.swift in Sources */,
 				2600D8F41ADCF00300DBDB2F /* README.md in Sources */,
 				26A7A3B81ADCD03800C248C2 /* AppDelegate.swift in Sources */,
+				2600D8F81ADCF8FB00DBDB2F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
