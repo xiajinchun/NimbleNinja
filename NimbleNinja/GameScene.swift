@@ -44,6 +44,17 @@ class GameScene: SKScene {
         wallGenerator = NNWallGenerator(color: UIColor.clearColor(), size: view.frame.size)
         wallGenerator.position = view.center
         addChild(wallGenerator)
+        
+        /* add start label */
+        let tapToStartLabel = SKLabelNode(text: "Tap to start!")
+        tapToStartLabel.name = "tapToStartLabel"
+        tapToStartLabel.position.x = view.center.x
+        tapToStartLabel.position.y = view.center.y + 40
+        tapToStartLabel.fontName = "Helvetice"
+        tapToStartLabel.fontColor = UIColor.blackColor()
+        tapToStartLabel.fontSize = 22.0
+        
+        addChild(tapToStartLabel)
     }
     
     func start() {
