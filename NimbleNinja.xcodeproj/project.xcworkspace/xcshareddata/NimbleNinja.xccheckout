@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0E9541A2-B234-4F86-94C7-567333696D0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NimbleNinja</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</key>
+		<string>github.com:xiajinchun/NimbleNinja.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NimbleNinja.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:xiajinchun/NimbleNinja.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NimbleNinja</string>
+		</dict>
+	</array>
+</dict>
+</plist>
