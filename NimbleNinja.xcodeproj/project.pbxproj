@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2600D8F41ADCF00300DBDB2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F31ADCF00300DBDB2F /* README.md */; };
-		2600D8F61ADCF8E900DBDB2F /* NNMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */; };
-		2600D8F81ADCF8FB00DBDB2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F71ADCF8FB00DBDB2F /* Constants.swift */; };
-		2600D8FA1ADD008600DBDB2F /* NNHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8F91ADD008600DBDB2F /* NNHero.swift */; };
-		2600D8FC1ADD01D500DBDB2F /* NNCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8FB1ADD01D500DBDB2F /* NNCloudGenerator.swift */; };
-		2600D8FE1ADD01DC00DBDB2F /* NNCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8FD1ADD01DC00DBDB2F /* NNCloud.swift */; };
-		2600D9001ADD01E200DBDB2F /* NNWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D8FF1ADD01E200DBDB2F /* NNWallGenerator.swift */; };
-		2600D9021ADD01E600DBDB2F /* NNWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600D9011ADD01E600DBDB2F /* NNWall.swift */; };
-		26A7A3B81ADCD03800C248C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */; };
-		26A7A3BA1ADCD03800C248C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26A7A3B91ADCD03800C248C2 /* GameScene.sks */; };
-		26A7A3BC1ADCD03800C248C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3BB1ADCD03800C248C2 /* GameScene.swift */; };
-		26A7A3BE1ADCD03800C248C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3BD1ADCD03800C248C2 /* GameViewController.swift */; };
-		26A7A3C11ADCD03800C248C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A7A3BF1ADCD03800C248C2 /* Main.storyboard */; };
-		26A7A3C31ADCD03800C248C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A7A3C21ADCD03800C248C2 /* Images.xcassets */; };
-		26A7A3C61ADCD03800C248C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A7A3C41ADCD03800C248C2 /* LaunchScreen.xib */; };
-		26A7A3D21ADCD03800C248C2 /* NimbleNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7A3D11ADCD03800C248C2 /* NimbleNinjaTests.swift */; };
+		26FE95271ADE158000FE0763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95261ADE158000FE0763 /* AppDelegate.swift */; };
+		26FE95291ADE158000FE0763 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26FE95281ADE158000FE0763 /* GameScene.sks */; };
+		26FE952B1ADE158000FE0763 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE952A1ADE158000FE0763 /* GameScene.swift */; };
+		26FE952D1ADE158000FE0763 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE952C1ADE158000FE0763 /* GameViewController.swift */; };
+		26FE95301ADE158000FE0763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FE952E1ADE158000FE0763 /* Main.storyboard */; };
+		26FE95321ADE158000FE0763 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FE95311ADE158000FE0763 /* Images.xcassets */; };
+		26FE95351ADE158000FE0763 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FE95331ADE158000FE0763 /* LaunchScreen.xib */; };
+		26FE95411ADE158000FE0763 /* NimbleNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95401ADE158000FE0763 /* NimbleNinjaTests.swift */; };
+		26FE954B1ADE171C00FE0763 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE954A1ADE171C00FE0763 /* Constants.swift */; };
+		26FE954D1ADE17C000FE0763 /* NNCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE954C1ADE17C000FE0763 /* NNCloud.swift */; };
+		26FE954F1ADE17D100FE0763 /* NNCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE954E1ADE17D100FE0763 /* NNCloudGenerator.swift */; };
+		26FE95511ADE17E100FE0763 /* NNHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95501ADE17E100FE0763 /* NNHero.swift */; };
+		26FE95531ADE17F200FE0763 /* NNMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95521ADE17F200FE0763 /* NNMovingGround.swift */; };
+		26FE95551ADE17FF00FE0763 /* NNWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95541ADE17FF00FE0763 /* NNWall.swift */; };
+		26FE95571ADE181800FE0763 /* NNWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE95561ADE181800FE0763 /* NNWallGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26A7A3CC1ADCD03800C248C2 /* PBXContainerItemProxy */ = {
+		26FE953B1ADE158000FE0763 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26A7A3AA1ADCD03800C248C2 /* Project object */;
+			containerPortal = 26FE95191ADE158000FE0763 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26A7A3B11ADCD03800C248C2;
+			remoteGlobalIDString = 26FE95201ADE158000FE0763;
 			remoteInfo = NimbleNinja;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2600D8F31ADCF00300DBDB2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNMovingGround.swift; sourceTree = "<group>"; };
-		2600D8F71ADCF8FB00DBDB2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		2600D8F91ADD008600DBDB2F /* NNHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNHero.swift; sourceTree = "<group>"; };
-		2600D8FB1ADD01D500DBDB2F /* NNCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNCloudGenerator.swift; sourceTree = "<group>"; };
-		2600D8FD1ADD01DC00DBDB2F /* NNCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNCloud.swift; sourceTree = "<group>"; };
-		2600D8FF1ADD01E200DBDB2F /* NNWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNWallGenerator.swift; sourceTree = "<group>"; };
-		2600D9011ADD01E600DBDB2F /* NNWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNWall.swift; sourceTree = "<group>"; };
-		26A7A3B21ADCD03800C248C2 /* Nimble Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A7A3B61ADCD03800C248C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26A7A3B91ADCD03800C248C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		26A7A3BB1ADCD03800C248C2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		26A7A3BD1ADCD03800C248C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		26A7A3C01ADCD03800C248C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26A7A3C21ADCD03800C248C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		26A7A3C51ADCD03800C248C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		26A7A3CB1ADCD03800C248C2 /* NimbleNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A7A3D01ADCD03800C248C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A7A3D11ADCD03800C248C2 /* NimbleNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleNinjaTests.swift; sourceTree = "<group>"; };
+		26FE95211ADE158000FE0763 /* NimbleNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FE95251ADE158000FE0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE95261ADE158000FE0763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26FE95281ADE158000FE0763 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		26FE952A1ADE158000FE0763 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		26FE952C1ADE158000FE0763 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		26FE952F1ADE158000FE0763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FE95311ADE158000FE0763 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26FE95341ADE158000FE0763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26FE953A1ADE158000FE0763 /* NimbleNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FE953F1ADE158000FE0763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE95401ADE158000FE0763 /* NimbleNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleNinjaTests.swift; sourceTree = "<group>"; };
+		26FE954A1ADE171C00FE0763 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		26FE954C1ADE17C000FE0763 /* NNCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNCloud.swift; sourceTree = "<group>"; };
+		26FE954E1ADE17D100FE0763 /* NNCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNCloudGenerator.swift; sourceTree = "<group>"; };
+		26FE95501ADE17E100FE0763 /* NNHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNHero.swift; sourceTree = "<group>"; };
+		26FE95521ADE17F200FE0763 /* NNMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNMovingGround.swift; sourceTree = "<group>"; };
+		26FE95541ADE17FF00FE0763 /* NNWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNWall.swift; sourceTree = "<group>"; };
+		26FE95561ADE181800FE0763 /* NNWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNWallGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26A7A3AF1ADCD03800C248C2 /* Frameworks */ = {
+		26FE951E1ADE158000FE0763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26A7A3C81ADCD03800C248C2 /* Frameworks */ = {
+		26FE95371ADE158000FE0763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,98 +74,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2600D9031ADD01EE00DBDB2F /* Cloud Generation */ = {
+		26FE95181ADE158000FE0763 = {
 			isa = PBXGroup;
 			children = (
-				2600D8FB1ADD01D500DBDB2F /* NNCloudGenerator.swift */,
-				2600D8FD1ADD01DC00DBDB2F /* NNCloud.swift */,
-			);
-			name = "Cloud Generation";
-			sourceTree = "<group>";
-		};
-		2600D9041ADD01F900DBDB2F /* Wall Generation */ = {
-			isa = PBXGroup;
-			children = (
-				2600D8FF1ADD01E200DBDB2F /* NNWallGenerator.swift */,
-				2600D9011ADD01E600DBDB2F /* NNWall.swift */,
-			);
-			name = "Wall Generation";
-			sourceTree = "<group>";
-		};
-		26A7A3A91ADCD03800C248C2 = {
-			isa = PBXGroup;
-			children = (
-				26A7A3B41ADCD03800C248C2 /* NimbleNinja */,
-				26A7A3CE1ADCD03800C248C2 /* NimbleNinjaTests */,
-				26A7A3B31ADCD03800C248C2 /* Products */,
-				2600D8F31ADCF00300DBDB2F /* README.md */,
+				26FE95231ADE158000FE0763 /* NimbleNinja */,
+				26FE953D1ADE158000FE0763 /* NimbleNinjaTests */,
+				26FE95221ADE158000FE0763 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		26A7A3B31ADCD03800C248C2 /* Products */ = {
+		26FE95221ADE158000FE0763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26A7A3B21ADCD03800C248C2 /* Nimble Ninja.app */,
-				26A7A3CB1ADCD03800C248C2 /* NimbleNinjaTests.xctest */,
+				26FE95211ADE158000FE0763 /* NimbleNinja.app */,
+				26FE953A1ADE158000FE0763 /* NimbleNinjaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26A7A3B41ADCD03800C248C2 /* NimbleNinja */ = {
+		26FE95231ADE158000FE0763 /* NimbleNinja */ = {
 			isa = PBXGroup;
 			children = (
-				26A7A3B71ADCD03800C248C2 /* AppDelegate.swift */,
-				26A7A3B91ADCD03800C248C2 /* GameScene.sks */,
-				26A7A3BD1ADCD03800C248C2 /* GameViewController.swift */,
-				26A7A3BB1ADCD03800C248C2 /* GameScene.swift */,
-				2600D8F51ADCF8E900DBDB2F /* NNMovingGround.swift */,
-				2600D8F91ADD008600DBDB2F /* NNHero.swift */,
-				2600D9031ADD01EE00DBDB2F /* Cloud Generation */,
-				2600D9041ADD01F900DBDB2F /* Wall Generation */,
-				2600D8F71ADCF8FB00DBDB2F /* Constants.swift */,
-				26A7A3BF1ADCD03800C248C2 /* Main.storyboard */,
-				26A7A3C21ADCD03800C248C2 /* Images.xcassets */,
-				26A7A3C41ADCD03800C248C2 /* LaunchScreen.xib */,
-				26A7A3B51ADCD03800C248C2 /* Supporting Files */,
+				26FE95261ADE158000FE0763 /* AppDelegate.swift */,
+				26FE95281ADE158000FE0763 /* GameScene.sks */,
+				26FE952A1ADE158000FE0763 /* GameScene.swift */,
+				26FE952C1ADE158000FE0763 /* GameViewController.swift */,
+				26FE95501ADE17E100FE0763 /* NNHero.swift */,
+				26FE95521ADE17F200FE0763 /* NNMovingGround.swift */,
+				26FE954A1ADE171C00FE0763 /* Constants.swift */,
+				26FE95581ADE184100FE0763 /* Cloud Generation */,
+				26FE95591ADE185D00FE0763 /* Wall Generation */,
+				26FE952E1ADE158000FE0763 /* Main.storyboard */,
+				26FE95311ADE158000FE0763 /* Images.xcassets */,
+				26FE95331ADE158000FE0763 /* LaunchScreen.xib */,
+				26FE95241ADE158000FE0763 /* Supporting Files */,
 			);
 			path = NimbleNinja;
 			sourceTree = "<group>";
 		};
-		26A7A3B51ADCD03800C248C2 /* Supporting Files */ = {
+		26FE95241ADE158000FE0763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				26A7A3B61ADCD03800C248C2 /* Info.plist */,
+				26FE95251ADE158000FE0763 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		26A7A3CE1ADCD03800C248C2 /* NimbleNinjaTests */ = {
+		26FE953D1ADE158000FE0763 /* NimbleNinjaTests */ = {
 			isa = PBXGroup;
 			children = (
-				26A7A3D11ADCD03800C248C2 /* NimbleNinjaTests.swift */,
-				26A7A3CF1ADCD03800C248C2 /* Supporting Files */,
+				26FE95401ADE158000FE0763 /* NimbleNinjaTests.swift */,
+				26FE953E1ADE158000FE0763 /* Supporting Files */,
 			);
 			path = NimbleNinjaTests;
 			sourceTree = "<group>";
 		};
-		26A7A3CF1ADCD03800C248C2 /* Supporting Files */ = {
+		26FE953E1ADE158000FE0763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				26A7A3D01ADCD03800C248C2 /* Info.plist */,
+				26FE953F1ADE158000FE0763 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FE95581ADE184100FE0763 /* Cloud Generation */ = {
+			isa = PBXGroup;
+			children = (
+				26FE954C1ADE17C000FE0763 /* NNCloud.swift */,
+				26FE954E1ADE17D100FE0763 /* NNCloudGenerator.swift */,
+			);
+			name = "Cloud Generation";
+			sourceTree = "<group>";
+		};
+		26FE95591ADE185D00FE0763 /* Wall Generation */ = {
+			isa = PBXGroup;
+			children = (
+				26FE95541ADE17FF00FE0763 /* NNWall.swift */,
+				26FE95561ADE181800FE0763 /* NNWallGenerator.swift */,
+			);
+			name = "Wall Generation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26A7A3B11ADCD03800C248C2 /* NimbleNinja */ = {
+		26FE95201ADE158000FE0763 /* NimbleNinja */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26A7A3D51ADCD03800C248C2 /* Build configuration list for PBXNativeTarget "NimbleNinja" */;
+			buildConfigurationList = 26FE95441ADE158000FE0763 /* Build configuration list for PBXNativeTarget "NimbleNinja" */;
 			buildPhases = (
-				26A7A3AE1ADCD03800C248C2 /* Sources */,
-				26A7A3AF1ADCD03800C248C2 /* Frameworks */,
-				26A7A3B01ADCD03800C248C2 /* Resources */,
+				26FE951D1ADE158000FE0763 /* Sources */,
+				26FE951E1ADE158000FE0763 /* Frameworks */,
+				26FE951F1ADE158000FE0763 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -175,46 +172,47 @@
 			);
 			name = NimbleNinja;
 			productName = NimbleNinja;
-			productReference = 26A7A3B21ADCD03800C248C2 /* Nimble Ninja.app */;
+			productReference = 26FE95211ADE158000FE0763 /* NimbleNinja.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26A7A3CA1ADCD03800C248C2 /* NimbleNinjaTests */ = {
+		26FE95391ADE158000FE0763 /* NimbleNinjaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26A7A3D81ADCD03800C248C2 /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */;
+			buildConfigurationList = 26FE95471ADE158000FE0763 /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */;
 			buildPhases = (
-				26A7A3C71ADCD03800C248C2 /* Sources */,
-				26A7A3C81ADCD03800C248C2 /* Frameworks */,
-				26A7A3C91ADCD03800C248C2 /* Resources */,
+				26FE95361ADE158000FE0763 /* Sources */,
+				26FE95371ADE158000FE0763 /* Frameworks */,
+				26FE95381ADE158000FE0763 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26A7A3CD1ADCD03800C248C2 /* PBXTargetDependency */,
+				26FE953C1ADE158000FE0763 /* PBXTargetDependency */,
 			);
 			name = NimbleNinjaTests;
 			productName = NimbleNinjaTests;
-			productReference = 26A7A3CB1ADCD03800C248C2 /* NimbleNinjaTests.xctest */;
+			productReference = 26FE953A1ADE158000FE0763 /* NimbleNinjaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26A7A3AA1ADCD03800C248C2 /* Project object */ = {
+		26FE95191ADE158000FE0763 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = TEAM;
 				TargetAttributes = {
-					26A7A3B11ADCD03800C248C2 = {
+					26FE95201ADE158000FE0763 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = F49CMD35RD;
 					};
-					26A7A3CA1ADCD03800C248C2 = {
+					26FE95391ADE158000FE0763 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 26A7A3B11ADCD03800C248C2;
+						TestTargetID = 26FE95201ADE158000FE0763;
 					};
 				};
 			};
-			buildConfigurationList = 26A7A3AD1ADCD03800C248C2 /* Build configuration list for PBXProject "NimbleNinja" */;
+			buildConfigurationList = 26FE951C1ADE158000FE0763 /* Build configuration list for PBXProject "NimbleNinja" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,30 +220,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 26A7A3A91ADCD03800C248C2;
-			productRefGroup = 26A7A3B31ADCD03800C248C2 /* Products */;
+			mainGroup = 26FE95181ADE158000FE0763;
+			productRefGroup = 26FE95221ADE158000FE0763 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26A7A3B11ADCD03800C248C2 /* NimbleNinja */,
-				26A7A3CA1ADCD03800C248C2 /* NimbleNinjaTests */,
+				26FE95201ADE158000FE0763 /* NimbleNinja */,
+				26FE95391ADE158000FE0763 /* NimbleNinjaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26A7A3B01ADCD03800C248C2 /* Resources */ = {
+		26FE951F1ADE158000FE0763 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A7A3C61ADCD03800C248C2 /* LaunchScreen.xib in Resources */,
-				26A7A3C31ADCD03800C248C2 /* Images.xcassets in Resources */,
-				26A7A3BA1ADCD03800C248C2 /* GameScene.sks in Resources */,
-				26A7A3C11ADCD03800C248C2 /* Main.storyboard in Resources */,
+				26FE95351ADE158000FE0763 /* LaunchScreen.xib in Resources */,
+				26FE95321ADE158000FE0763 /* Images.xcassets in Resources */,
+				26FE95291ADE158000FE0763 /* GameScene.sks in Resources */,
+				26FE95301ADE158000FE0763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26A7A3C91ADCD03800C248C2 /* Resources */ = {
+		26FE95381ADE158000FE0763 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,55 +253,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26A7A3AE1ADCD03800C248C2 /* Sources */ = {
+		26FE951D1ADE158000FE0763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2600D8FE1ADD01DC00DBDB2F /* NNCloud.swift in Sources */,
-				26A7A3BC1ADCD03800C248C2 /* GameScene.swift in Sources */,
-				2600D8F61ADCF8E900DBDB2F /* NNMovingGround.swift in Sources */,
-				2600D9021ADD01E600DBDB2F /* NNWall.swift in Sources */,
-				26A7A3BE1ADCD03800C248C2 /* GameViewController.swift in Sources */,
-				2600D8FC1ADD01D500DBDB2F /* NNCloudGenerator.swift in Sources */,
-				2600D9001ADD01E200DBDB2F /* NNWallGenerator.swift in Sources */,
-				2600D8F41ADCF00300DBDB2F /* README.md in Sources */,
-				26A7A3B81ADCD03800C248C2 /* AppDelegate.swift in Sources */,
-				2600D8FA1ADD008600DBDB2F /* NNHero.swift in Sources */,
-				2600D8F81ADCF8FB00DBDB2F /* Constants.swift in Sources */,
+				26FE954D1ADE17C000FE0763 /* NNCloud.swift in Sources */,
+				26FE952B1ADE158000FE0763 /* GameScene.swift in Sources */,
+				26FE95531ADE17F200FE0763 /* NNMovingGround.swift in Sources */,
+				26FE952D1ADE158000FE0763 /* GameViewController.swift in Sources */,
+				26FE954F1ADE17D100FE0763 /* NNCloudGenerator.swift in Sources */,
+				26FE95571ADE181800FE0763 /* NNWallGenerator.swift in Sources */,
+				26FE95271ADE158000FE0763 /* AppDelegate.swift in Sources */,
+				26FE95511ADE17E100FE0763 /* NNHero.swift in Sources */,
+				26FE95551ADE17FF00FE0763 /* NNWall.swift in Sources */,
+				26FE954B1ADE171C00FE0763 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26A7A3C71ADCD03800C248C2 /* Sources */ = {
+		26FE95361ADE158000FE0763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A7A3D21ADCD03800C248C2 /* NimbleNinjaTests.swift in Sources */,
+				26FE95411ADE158000FE0763 /* NimbleNinjaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26A7A3CD1ADCD03800C248C2 /* PBXTargetDependency */ = {
+		26FE953C1ADE158000FE0763 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26A7A3B11ADCD03800C248C2 /* NimbleNinja */;
-			targetProxy = 26A7A3CC1ADCD03800C248C2 /* PBXContainerItemProxy */;
+			target = 26FE95201ADE158000FE0763 /* NimbleNinja */;
+			targetProxy = 26FE953B1ADE158000FE0763 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26A7A3BF1ADCD03800C248C2 /* Main.storyboard */ = {
+		26FE952E1ADE158000FE0763 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26A7A3C01ADCD03800C248C2 /* Base */,
+				26FE952F1ADE158000FE0763 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		26A7A3C41ADCD03800C248C2 /* LaunchScreen.xib */ = {
+		26FE95331ADE158000FE0763 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26A7A3C51ADCD03800C248C2 /* Base */,
+				26FE95341ADE158000FE0763 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -311,7 +308,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		26A7A3D31ADCD03800C248C2 /* Debug */ = {
+		26FE95421ADE158000FE0763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +325,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -350,12 +348,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "07a8025a-d932-413d-8610-4c38e3a5f535";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		26A7A3D41ADCD03800C248C2 /* Release */ = {
+		26FE95431ADE158000FE0763 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +371,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -387,32 +387,37 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "07a8025a-d932-413d-8610-4c38e3a5f535";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		26A7A3D61ADCD03800C248C2 /* Debug */ = {
+		26FE95451ADE158000FE0763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
 				INFOPLIST_FILE = NimbleNinja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Nimble Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07a8025a-d932-413d-8610-4c38e3a5f535";
 			};
 			name = Debug;
 		};
-		26A7A3D71ADCD03800C248C2 /* Release */ = {
+		26FE95461ADE158000FE0763 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChengYu Yang (3LTH5J8MKK)";
 				INFOPLIST_FILE = NimbleNinja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Nimble Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07a8025a-d932-413d-8610-4c38e3a5f535";
 			};
 			name = Release;
 		};
-		26A7A3D91ADCD03800C248C2 /* Debug */ = {
+		26FE95481ADE158000FE0763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -431,7 +436,7 @@
 			};
 			name = Debug;
 		};
-		26A7A3DA1ADCD03800C248C2 /* Release */ = {
+		26FE95491ADE158000FE0763 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,34 +454,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26A7A3AD1ADCD03800C248C2 /* Build configuration list for PBXProject "NimbleNinja" */ = {
+		26FE951C1ADE158000FE0763 /* Build configuration list for PBXProject "NimbleNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26A7A3D31ADCD03800C248C2 /* Debug */,
-				26A7A3D41ADCD03800C248C2 /* Release */,
+				26FE95421ADE158000FE0763 /* Debug */,
+				26FE95431ADE158000FE0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26A7A3D51ADCD03800C248C2 /* Build configuration list for PBXNativeTarget "NimbleNinja" */ = {
+		26FE95441ADE158000FE0763 /* Build configuration list for PBXNativeTarget "NimbleNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26A7A3D61ADCD03800C248C2 /* Debug */,
-				26A7A3D71ADCD03800C248C2 /* Release */,
+				26FE95451ADE158000FE0763 /* Debug */,
+				26FE95461ADE158000FE0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		26A7A3D81ADCD03800C248C2 /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */ = {
+		26FE95471ADE158000FE0763 /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26A7A3D91ADCD03800C248C2 /* Debug */,
-				26A7A3DA1ADCD03800C248C2 /* Release */,
+				26FE95481ADE158000FE0763 /* Debug */,
+				26FE95491ADE158000FE0763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26A7A3AA1ADCD03800C248C2 /* Project object */;
+	rootObject = 26FE95191ADE158000FE0763 /* Project object */;
 }

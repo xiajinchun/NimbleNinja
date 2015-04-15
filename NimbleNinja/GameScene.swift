@@ -27,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         /* add hero */
         addHero()
-
+        
         /* add cloud generator */
         addCloudGenerator()
         
@@ -140,7 +140,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             hero.flip()
         }
     }
-   
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }

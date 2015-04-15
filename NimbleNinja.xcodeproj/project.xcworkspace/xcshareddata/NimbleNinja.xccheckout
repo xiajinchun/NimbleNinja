@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0E9541A2-B234-4F86-94C7-567333696D0F</string>
+	<string>641B3E67-B13A-47A6-A5D4-B48D7B1072A8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>NimbleNinja</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</key>
 		<string>github.com:xiajinchun/NimbleNinja.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>NimbleNinja.xcodeproj</string>
+	<string>NimbleNinja.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>497C1F6BD1E83C38A2E0BA9FFE2AB5C5FC74A289</key>

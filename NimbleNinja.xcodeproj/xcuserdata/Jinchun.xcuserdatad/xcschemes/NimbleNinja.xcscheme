@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26A7A3B11ADCD03800C248C2"
-               BuildableName = "Nimble Ninja.app"
+               BlueprintIdentifier = "26FE95201ADE158000FE0763"
+               BuildableName = "NimbleNinja.app"
                BlueprintName = "NimbleNinja"
                ReferencedContainer = "container:NimbleNinja.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26A7A3CA1ADCD03800C248C2"
+               BlueprintIdentifier = "26FE95391ADE158000FE0763"
                BuildableName = "NimbleNinjaTests.xctest"
                BlueprintName = "NimbleNinjaTests"
                ReferencedContainer = "container:NimbleNinja.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26A7A3CA1ADCD03800C248C2"
+               BlueprintIdentifier = "26FE95391ADE158000FE0763"
                BuildableName = "NimbleNinjaTests.xctest"
                BlueprintName = "NimbleNinjaTests"
                ReferencedContainer = "container:NimbleNinja.xcodeproj">
@@ -56,8 +56,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26A7A3B11ADCD03800C248C2"
-            BuildableName = "Nimble Ninja.app"
+            BlueprintIdentifier = "26FE95201ADE158000FE0763"
+            BuildableName = "NimbleNinja.app"
             BlueprintName = "NimbleNinja"
             ReferencedContainer = "container:NimbleNinja.xcodeproj">
          </BuildableReference>
@@ -76,8 +76,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26A7A3B11ADCD03800C248C2"
-            BuildableName = "Nimble Ninja.app"
+            BlueprintIdentifier = "26FE95201ADE158000FE0763"
+            BuildableName = "NimbleNinja.app"
             BlueprintName = "NimbleNinja"
             ReferencedContainer = "container:NimbleNinja.xcodeproj">
          </BuildableReference>
@@ -95,8 +95,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26A7A3B11ADCD03800C248C2"
-            BuildableName = "Nimble Ninja.app"
+            BlueprintIdentifier = "26FE95201ADE158000FE0763"
+            BuildableName = "NimbleNinja.app"
             BlueprintName = "NimbleNinja"
             ReferencedContainer = "container:NimbleNinja.xcodeproj">
          </BuildableReference>

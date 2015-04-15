@@ -28,7 +28,7 @@ class NNWall: SKSpriteNode {
         physicsBody?.categoryBitMask = wallCategory
         physicsBody?.affectedByGravity = false
     }
-
+    
     func startMoving() {
         let moveLeft = SKAction.moveByX(-kDefaultXToMovePerSecond, y: 0, duration: 1)
         runAction(SKAction.repeatActionForever(moveLeft))

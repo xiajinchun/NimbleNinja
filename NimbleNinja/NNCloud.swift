@@ -18,7 +18,7 @@ class NNCloud: SKShapeNode {
         fillColor = UIColor.whiteColor()
         startMoving()
     }
-
+    
     func startMoving() {
         let moveLeft = SKAction.moveByX(-10, y: 0, duration: 1)
         runAction(SKAction.repeatActionForever(moveLeft))
