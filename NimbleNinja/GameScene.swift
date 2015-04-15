@@ -23,43 +23,67 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         backgroundColor = UIColor(red: 159.0/255.0, green: 201.0/255.0, blue: 244.0/255.0, alpha: 1.0)
         
         /* add ground */
-        movingGround = NNMovingGround(size: CGSizeMake(view.frame.width, kMLGroundHeight))
-        movingGround.position = CGPointMake(0, view.frame.size.height / 2)
-        self.addChild(movingGround)
+        addMovingGround()
         
         /* add hero */
+        addHero()
+
+        /* add cloud generator */
+        addCloudGenerator()
+        
+        /* add wall generator */
+        addWallGenerator()
+        
+        /* add start label */
+        addTapToStartLabel()
+        
+        /* add physics world */
+        addPhysicsWorld()
+    }
+    
+    func addMovingGround() {
+        movingGround = NNMovingGround(size: CGSizeMake(view!.frame.width, kMLGroundHeight))
+        movingGround.position = CGPointMake(0, view!.frame.size.height / 2)
+        self.addChild(movingGround)
+    }
+    
+    func addHero() {
         hero = NNHero()
         hero.position = CGPointMake(70, movingGround.position.y + movingGround.frame.size.height / 2 + hero.frame.size.height / 2)
         self.addChild(hero)
         hero.breath()
-
-        /* add cloud generator */
-        cloudGenerator = NNCloudGenerator(color: UIColor.clearColor(), size: view.frame.size)
-        cloudGenerator.position = view.center
+    }
+    
+    func addCloudGenerator() {
+        cloudGenerator = NNCloudGenerator(color: UIColor.clearColor(), size: view!.frame.size)
+        cloudGenerator.position = view!.center
         cloudGenerator.zPosition = -10
         addChild(cloudGenerator)
         cloudGenerator.populate(7)
         cloudGenerator.startGeneratingWithSpawnTime(5)
-        
-        /* add wall generator */
-        wallGenerator = NNWallGenerator(color: UIColor.clearColor(), size: view.frame.size)
-        wallGenerator.position = view.center
+    }
+    
+    func addWallGenerator() {
+        wallGenerator = NNWallGenerator(color: UIColor.clearColor(), size: view!.frame.size)
+        wallGenerator.position = view!.center
         addChild(wallGenerator)
-        
-        /* add start label */
+    }
+    
+    func addTapToStartLabel() {
         let tapToStartLabel = SKLabelNode(text: "Tap to start!")
         tapToStartLabel.name = "tapToStartLabel"
-        tapToStartLabel.position.x = view.center.x
-        tapToStartLabel.position.y = view.center.y + 40
+        tapToStartLabel.position.x = view!.center.x
+        tapToStartLabel.position.y = view!.center.y + 40
         tapToStartLabel.fontName = "Helvetice"
         tapToStartLabel.fontColor = UIColor.blackColor()
         tapToStartLabel.fontSize = 22.0
         addChild(tapToStartLabel)
-        
-        /* add physics world */
-        physicsWorld.contactDelegate = self
+        tapToStartLabel.runAction(blinkAnimation())
     }
     
+    func addPhysicsWorld() {
+        physicsWorld.contactDelegate = self
+    }
     
     // MARK: - Game Lifecycle
     func start() {
@@ -80,20 +104,21 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         isGameOver = true
         
         // stop everthing
-        hero.physicsBody = nil
+        hero.fail()
         wallGenerator.stopWalls()
         movingGround.stop()
         hero.stop()
         
         
         // create game over label
-        let gameOverLabel = SKLabelNode(text: "Game Over")
+        let gameOverLabel = SKLabelNode(text: "Game Over!")
         gameOverLabel.fontColor = UIColor.blackColor()
         gameOverLabel.fontName = "Helvetice"
         gameOverLabel.position.x = view!.center.x
         gameOverLabel.position.y = view!.center.y + 40
         gameOverLabel.fontSize = 22.0
         addChild(gameOverLabel)
+        gameOverLabel.runAction(blinkAnimation())
     }
     
     func restart() {
@@ -122,7 +147,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // MARK: - SKPhysiscContactDeleagte
     func didBeginContact(contact: SKPhysicsContact) {
-        gameOver()
-        println("didBeginContact called")
+        if !isGameOver{
+            gameOver()
+        }
+    }
+    
+    // MARK: - Animation
+    func blinkAnimation() -> SKAction {
+        let duration = 0.4
+        let fadeOut = SKAction.fadeAlphaTo(0.0, duration: duration)
+        let fadeIn = SKAction.fadeAlphaTo(1.0, duration: duration)
+        let blink = SKAction.sequence([fadeOut, fadeIn])
+        
+        return SKAction.repeatActionForever(blink)
     }
 }

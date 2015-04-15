@@ -132,6 +132,14 @@ class NNHero: SKSpriteNode {
         leftFoot.removeAllActions()
         rightFoot.removeAllActions()
     }
+    
+    func fail() {
+        physicsBody?.affectedByGravity = true
+        physicsBody?.applyImpulse(CGVectorMake(-5, 30))
+        
+        let rotateBack  = SKAction.rotateByAngle(CGFloat(M_PI) / 2, duration: 0.4)
+        runAction(rotateBack)
+    }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
