@@ -19,8 +19,14 @@ class NNHero: SKSpriteNode {
     var isUpsideDown = false
 
     init() {
-        super.init(texture: nil, color: UIColor.clearColor(), size: CGSizeMake(32, 44))
+        let size = CGSizeMake(32, 44)
+        super.init(texture: nil, color: UIColor.clearColor(), size: size)
         
+        loadAppearance()
+        loadPhysicsBody(size)
+    }
+    
+    func loadAppearance() {
         body = SKSpriteNode(color: UIColor.blackColor(), size: CGSizeMake(self.frame.size.width, 40))
         body.position = CGPointMake(0, 2)
         body.zPosition = 10
@@ -70,6 +76,13 @@ class NNHero: SKSpriteNode {
         self.addChild(rightFoot)
     }
     
+    func loadPhysicsBody(size: CGSize) {
+        physicsBody = SKPhysicsBody(rectangleOfSize: size)
+        physicsBody?.categoryBitMask = heroCategory
+        physicsBody?.contactTestBitMask = wallCategory
+        physicsBody?.affectedByGravity = false
+    }
+    
     func flip() {
         isUpsideDown = !isUpsideDown
         
@@ -116,6 +129,8 @@ class NNHero: SKSpriteNode {
     
     func stop() {
         body.removeAllActions()
+        leftFoot.removeAllActions()
+        rightFoot.removeAllActions()
     }
 
     required init?(coder aDecoder: NSCoder) {

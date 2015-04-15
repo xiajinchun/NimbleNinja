@@ -37,4 +37,8 @@ class NNCloudGenerator: SKSpriteNode {
         cloud.position = CGPointMake(x, y)
         addChild(cloud)
     }
+    
+    func stopGenerating() {
+        generationTimer.invalidate()
+    }
 }

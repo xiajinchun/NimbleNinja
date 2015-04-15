@@ -46,6 +46,9 @@ class NNMovingGround: SKSpriteNode {
         let moveSequence = SKAction.sequence([moveLeftAction, resetPositionAction])
         
         runAction(SKAction.repeatActionForever(moveSequence))
-        
+    }
+    
+    func stop() {
+        removeAllActions()
     }
 }
